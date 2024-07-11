@@ -1,0 +1,58 @@
+
+
+.admin{
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(111, 180, 177), rgb(233, 92, 92));
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+h2 {
+   
+    color: rgb(233, 92, 92);
+    text-align: center;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    background: rgb(111, 180, 177);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+

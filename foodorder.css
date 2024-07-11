@@ -1,0 +1,79 @@
+
+
+.containerfood {
+    background: linear-gradient(rgb(111, 180, 177), rgb(233, 92, 92));
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+strong{
+    color: black;
+}
+.foodselect {
+   align-self: center;
+    width: 20%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.food{
+    color: darkblue;
+}
+
+.food-details {
+    margin-bottom: 15px;
+    display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+    margin: 10px;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+}
+.food-item {
+    
+    padding: 40px ;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px black;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.form-check input[type="radio"] {
+    margin-right: 5px; 
+}
+
+
+.form-check label {
+    margin-right: 15px; 
+    white-space: nowrap; 
+}
+

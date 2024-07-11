@@ -1,0 +1,53 @@
+.getcontainer {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(111, 180, 177), rgb(233, 92, 92));
+}
+
+.containerget {
+    background-color: #fff;
+    max-width: 800px;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.restaurant-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.restaurant-details {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #bb78c8;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(111, 180, 177);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(7, 244, 232);
+}

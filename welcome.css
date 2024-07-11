@@ -1,0 +1,55 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;overflow: hidden;
+    position: relative; 
+    background-image: url("https://www.talktoray.com/wp-content/uploads/2019/11/programs-to-feed-the-hungry-nova.jpg");
+     background-repeat: no-repeat;
+   
+    background-size: 100% 100%; 
+    background-position: center;
+}
+.container2 {
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container1{
+    color: black;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 2px 4px 8px black;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.container2 button {
+    background-color: rgb(111, 180, 177);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.container2 button:hover {
+    background-color: rgb(52, 167, 196);
+}
+.content{
+    text-align: center;
+}

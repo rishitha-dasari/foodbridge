@@ -1,0 +1,68 @@
+
+.foodDetails {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size:cover ;
+
+    background: linear-gradient(rgb(111, 180, 177), rgb(233, 92, 92));
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+input[type="text"],
+input[type="file"] {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.btnn {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="radio"]{
+    padding-top: 50px;
+}
+.btnn.active {
+    background-color: #007bff; /* Adjust active button color */
+    color: #fff;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff68;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c3662;
+}
